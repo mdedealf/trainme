@@ -76,11 +76,6 @@ nav {
   outline: none;
 }
 
-.middle-section .search-input .search-bar::input {
-  font-family: Poppins, Arial;
-  font-size: 24px;
-}
-
 .middle-section .search-input img {
   height: 24px;
 
