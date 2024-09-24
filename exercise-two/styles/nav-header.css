@@ -13,6 +13,7 @@ nav {
 .left-section {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .left-section a img {
@@ -35,8 +36,14 @@ nav {
   font-weight: 700;
   font-size: 20px;
   color: #fff;
-
+  text-decoration: none;
   cursor: pointer;
+}
+
+@media (min-width: 720px) and (max-width: 1280px) {
+  .middle-section .nav-menu {
+    margin: 0 25px;
+  }
 }
 
 .middle-section .nav-menu:hover {
@@ -48,6 +55,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 50px;
 }
 
 .middle-section .search-input .search-bar {
@@ -84,5 +92,6 @@ nav {
 }
 
 .right-section .cart-icon {
+  cursor: pointer;
   height: 41px;
 }
