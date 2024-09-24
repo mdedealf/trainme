@@ -15,7 +15,7 @@ nav {
 }
 
 /* Navigation section */
-.left-section {
+.left-section a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@ nav {
 
 .left-section a img {
   height: 44px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   border-radius: 24px;
   margin-left: 35px;
 }
